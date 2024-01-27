@@ -1,0 +1,69 @@
+<!-- Portfolio page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet"type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class ="main-menu">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="about.html">Om mig</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Portfolio</h1>
+
+        <div class="modals">
+            <div class="modal">
+                <h2>High School Database (project)</h2>
+                <button class="primary" onclick="window.dialog1.showModal();"><img src="images/hs-pic.jpg" alt="line art of a school"></button>
+                <dialog id="dialog1">
+	                <h2>High School Database</h2>
+	                <p>Detta program var mitt slutprojekt för kursen <italic>Programmering av databaser och SQL</italic> <br> Programmet är en konsollapplikation som med hjälp av entity framework kopplar upp mot en färdig databas i SSMS.</p>
+	                <p>Databasen består av bland annat elever, klasser, avdelningar, personal och kurser i en gymnasieskola. Programmet är till för att användaren enkelt ska kunna klicka sig till de uppgifter från databasen hen vill ta del av. Såsom betyg, löner, kursstarter med mera.</p>
+                    <p>Tryck <a href="https://github.com/LindEmma/HighSchoolProject.git" target="_blank">här</a> för att komma till github och se koden själv!</p>
+	                <button onclick="window.dialog1.close();" aria-label="close" class="x">❌</button>
+                </dialog>
+            </div>
+
+            <div class="modal"> 
+                <h2>OOP - Arv</h2> 
+                <button class="primary" onclick="window.dialog2.showModal();"><img src="images/arv-pic.jpg" alt="line art of elephant with baby elephant"> </button>
+                <dialog id="dialog2">
+	                <h2>OOP - Arv</h2>
+	                <p>I detta program visar jag att jag kan använda mig av arv(inheritance) i objektorienterad programmering <br> </p>
+	                <p>Programmet är en konsollapplikation skriven i C# och består av klasser som symboliserar olika sorters djur och deras underarter. <br>Djuren gör lite olika saker beorende på ras och art.</p>
+                    <p>Tryck <a href="https://github.com/LindEmma/OOP-Inheritance.git" target="_blank">här</a> för att komma till github och se koden själv!</p>
+	                <button onclick="window.dialog2.close();" aria-label="close" class="x">❌</button>
+                </dialog>
+            </div>
+
+            <div class="modal">  
+                <h2>Numbers game</h2>
+                <button class="primary" onclick="window.dialog3.showModal();"><img src="images/game-pic2.avif" alt="line art of a gaming control"></button>
+                <dialog id="dialog3">
+	                <h2>Numbers Game</h2>
+	                <p>Detta program är en konsollapp skriven i c#. Det var ett av mina första program och är således ganska simpelt, men jag var stolt över det när det var klart. <br>Numbers Game är ett frågespel med tre olika svårigheter. Spelet går ut på att gissa vilken siffra programmet tänker på varav datorn svarar om talet är för högt eller för lågt.</p>
+	                <p><br>Tryck <a href="https://github.com/LindEmma/NumbersGame.git" target="_blank">här</a> för att komma till github och testa koden själv!</p>
+                    <button onclick="window.dialog3.close();" aria-label="close" class="x">❌</button>
+                </dialog>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2024 Emma Lind</p>
+    </footer>
+</body>
+</html>
