@@ -94,7 +94,7 @@ footer p{
 form{
     margin: 20px;
     padding: 20px;
-    width: 500px;
+    width: 600px;
     height: auto;
     border: 1px solid #543f3f;
     border-radius: 30px;
@@ -351,7 +351,7 @@ button.primary {
     height: auto;
     border: 1px solid #543f3f;
     border-radius: 30px;
-    background-color: #fef2cd;
+    background-color: #fff6e2;
     }
     .date {
         float: left;
