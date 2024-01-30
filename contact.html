@@ -2,55 +2,91 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Kontakt</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav class ="main-menu">
-            <ul>
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="about.html">Om mig</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-            </ul>
-        </nav>
+      <nav class="main-menu">
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="about.html">Om mig</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="contact-form">
-    <h1>
-        Kontakt
-    </h1>
-    <form action="/submit_form" method="post">
-        
-        <p>Vänligen fyll i uppgifterna nedan och skicka så återkommer jag!</p>
-        
-        <label for="name">Namn</label>
-        <input type="text" id="name" name="name" required><br>
+      <div class="contact-form">
+        <h1>Kontakt</h1>
+        <form
+          action="/submit_form"
+          method="post"
+        >
+          <p>Vänligen fyll i uppgifterna nedan och skicka så återkommer jag!</p>
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email"><br>
+          <label for="name">Namn</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+          /><br />
 
-        <label for="subject">Ämne</label>
-        <input type="subject" id="subject" name="subject"><br>
-        
-        <label for="message">Meddelande</label>
-        <textarea id="message" id="message" name="message"></textarea><br>
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+          /><br />
 
-        <label for="urgent"> Kryssa i om ärendet är brådskande</label>
-        <input type="checkbox" id="urgent" name="urgent" value="urgent"><br><br><br>
+          <label for="subject">Ämne</label>
+          <input
+            type="subject"
+            id="subject"
+            name="subject"
+          /><br />
 
-        <input type="submit" value="Skicka">
-    </form>
-</div>
+          <label for="message">Meddelande</label>
+          <textarea
+            id="message"
+            id="message"
+            name="message"
+          ></textarea
+          ><br />
+
+          <label for="urgent"> Kryssa i om ärendet är brådskande</label>
+          <input
+            type="checkbox"
+            id="urgent"
+            name="urgent"
+            value="urgent"
+          /><br /><br /><br />
+
+          <input
+            type="submit"
+            value="Skicka"
+          />
+        </form>
+      </div>
     </main>
     <footer>
-        <p>&copy;2024 Emma Lind</p>
+      <p>&copy;2024 Emma Lind</p>
     </footer>
-</body>
+  </body>
 </html>
