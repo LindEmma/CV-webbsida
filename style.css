@@ -153,10 +153,18 @@ input[type="submit"]:hover {
   margin: 200px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 #home h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 4em;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+#home h2 {
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px #fef2cd;
 }
 
 /* CV - page */
